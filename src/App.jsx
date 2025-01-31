@@ -1,4 +1,4 @@
-import React from 'react'
+import  'react'
 import { RouterProvider } from 'react-router-dom'
 import { myRouter } from './router'
 
