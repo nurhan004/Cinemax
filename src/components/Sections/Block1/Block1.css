@@ -1,0 +1,44 @@
+.swiper-slide-bg {
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  
+  .text-container {
+    width: 600px;
+    color: white;
+    margin-left: 100px;
+  }
+  
+  .text-container h1 {
+    font-size: 2rem;
+    width: 540px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  .text-container p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 400px;
+    margin: 1.25rem 0;
+    font-family: cursive;
+  }
+  
+  .text-container button {
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    background-color: #60a5fa;
+    cursor: pointer;
+  }
+  
+  .text-container button:hover {
+    background-color: #3b82f6;
+  }
+  
+  
