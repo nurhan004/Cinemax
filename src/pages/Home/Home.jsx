@@ -1,9 +1,12 @@
-import React from 'react'
+import 'react'
 import "./Home.css"
+import Block3 from './Block3/Block3'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Block3 />
+    </div>
   )
 }
 
