@@ -16,8 +16,6 @@ const BASE_URL = "https://api.themoviedb.org/3";
 function Block1() {
   const [movies, setMovies] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     axios
@@ -26,15 +24,10 @@ function Block1() {
         setMovies(response.data.results);
         setLoading(false);
       })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
+
   }, []);
 
-  if (loading) return <div className="loading">Загрузка...</div>;
-  if (error) return <div className="error">Ошибка: {error}</div>;
-
+  
   return (
     <section>
       <div className="swiper-container">

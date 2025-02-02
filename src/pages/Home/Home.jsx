@@ -16,8 +16,8 @@ function Home() {
     <div>
     <Container>
       <Block1/>
-       <Block2/>
-       <Block3/>
+      <Block2/>
+      <Block3/>
       <Block4/>
       <Block5/>
       <Footer/>
@@ -26,4 +26,5 @@ function Home() {
   )
 }
 
-export default Home
+
+export default Home;
