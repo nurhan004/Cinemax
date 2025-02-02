@@ -13,7 +13,8 @@ export const myRouter = createBrowserRouter([
                 path:"/",
                 element:<Home/>
                 
-            }
+            },
+          
         ]
     }
 ])
