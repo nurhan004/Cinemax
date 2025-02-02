@@ -27,7 +27,7 @@ export const myRouter = createBrowserRouter([
             //     path:"/drama",
             //     element:<Drama/>
             // }
-
+       
         ]
     }
 ])
