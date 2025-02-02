@@ -5,16 +5,17 @@ import Container from '../../Container/Container'
 import Block4 from '../../components/Sections/Block4/Block4'
 import Footer from '../../components/Footer/Footer'
 import Block5 from '../../components/Sections/Block5/Block5'
-import Block3 from './Block3/Block3'
+import Block3 from '../../components/Sections/Block3/Block3'
 import Header from '../../components/Header/Header'
 import Block2 from '../../components/Sections/Block2/Block2'
-import Footer from '../../components/Footer/Footer'
+
 
 
 function Home() {
   return (
     <div>
     <Container>
+      <Header/>
       <Block1/>
       <Block2/>
       <Block3/>
