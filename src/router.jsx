@@ -15,6 +15,10 @@ export const myRouter = createBrowserRouter([
             {
                 path:"/",
                 element:<Home/>
+
+                
+            },
+          
             },
             {
                 path:"/look/:id",

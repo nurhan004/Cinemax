@@ -1,0 +1,51 @@
+.mySwiper {
+    width: 962px;
+    height: 560px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    overflow: hidden; /* Скрываем всё, что выходит за пределы контейнера */
+    position: relative;
+}
+
+.vilm {
+    width: 400px; 
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.tile{
+    font-family: cursive;
+   font-size: 36px;
+   font-weight: 600;
+   text-underline-position: from-font;
+   color:white;
+  margin-left: 50px;
+
+}
+.movie-content{
+    display: flex;
+    
+}
+.text{
+    width: 442px;
+    color: white;
+    font-family: cursive;
+    margin-left: 50px;
+}
+.movie-info{
+    margin-top: 100px;
+}
+.hit{
+width: 120px;
+height:  40px;
+border-radius: 36px;
+color: white;
+background-color: #EF4234;
+font-family: cursive;
+font-size: 16px;
+margin-left: 50px;
+margin-top: 20px;
+}
