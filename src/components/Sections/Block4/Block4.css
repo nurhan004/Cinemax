@@ -1,0 +1,31 @@
+.filter-button-div {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #1A1A1A;
+  height: 65px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.filter-button-div button {
+  border: none;
+  color: white;
+  background-color: #1A1A1A;
+  height: 65px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.filter-button-div button.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #EF4234;
+  transition: 0.3s;
+}

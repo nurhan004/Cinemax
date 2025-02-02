@@ -1,0 +1,42 @@
+.Footer-Container{
+    width: 1400px;
+    background-color: #1A1A1A;
+    margin: auto;
+}
+.block-footer{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    
+}
+.ji{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+color: white;
+font-size: 20px;
+transition: color 0.3s ease, ease;
+}
+.ji:hover{
+    color: #EF4234; 
+}
+.Footer-Container p{
+    font-family: Montserrat;
+    color: #FFFFFF;   
+    font-size: 20px;
+    color: white; 
+    transition: color 0.3s ease,  ease; 
+}
+.Footer-Container p:hover{
+    color: #EF4234;
+}
+.button-Footer{
+    width: 142px;
+    height: 33px;
+    border-radius: 36px;
+    background-color: #EF4234;
+    color: white;
+}
