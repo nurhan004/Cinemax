@@ -8,6 +8,7 @@ import Block5 from '../../components/Sections/Block5/Block5'
 import Block3 from '../../components/Sections/Block3/Block3'
 import Header from '../../components/Header/Header'
 import Block2 from '../../components/Sections/Block2/Block2'
+import Header from '../../components/Header/Header'
 
 
 
@@ -21,7 +22,6 @@ function Home() {
       <Block3/>
       <Block4/>
       <Block5/>
-      <Footer/>
     </Container>
     </div>
   )

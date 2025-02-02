@@ -19,7 +19,6 @@ export const myRouter = createBrowserRouter([
                 
             },
           
-            
             {
                 path:"/look/:id",
                 element:<Block1Info/>
