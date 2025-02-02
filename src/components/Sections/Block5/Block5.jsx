@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './Block5.css';
 import { Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 const apiKey = import.meta.env.VITE_API_KEY || "18e278777fe86a077b3fe657f9b52f77";
 
@@ -50,15 +51,6 @@ const Block5 = () => {
     fetchRandomMovie();
   }, []);
 
-  if (error) {
-    return (
-      <div className="error-container">
-        ❌ Ошибка: {error}
-        <button onClick={() => window.location.reload()}>🔄 Попробовать снова</button>
-      </div>
-    );
-  }
-
   if (!movieData) {
     return <div className="loading">⏳ Загрузка данных...</div>;
   }
@@ -69,7 +61,7 @@ const Block5 = () => {
         direction={'vertical'}
         pagination={{ clickable: true }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper1"
       >
         {movieData.map((movie, index) => (
           <SwiperSlide key={index}>
@@ -85,7 +77,10 @@ const Block5 = () => {
                   <p className='text'>{movie.overview || "Описание отсутствует"}</p>
 
                 <div>
+                  <Link to={`/look/${movie.id}`}>
+                  
                   <button className='hit'>Смотреть</button>
+                  </Link>
                 </div>
                 </div>
               </div>
