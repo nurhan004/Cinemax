@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-content {
+    background-color: transparent;
+    width: 1300px;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  
+  .nav-link {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .user-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  
+  .language {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: cursive;
+  }
+    .user-icon img {
+    width: 24px; 
+    height: 24px;
+  }
+  

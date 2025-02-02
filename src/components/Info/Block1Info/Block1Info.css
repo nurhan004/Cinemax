@@ -1,0 +1,99 @@
+.info-container {
+    position: relative;
+    width: 1440px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    opacity: 0.5;
+  }
+  
+  .info-content {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    z-index: 2;
+  }
+  
+  .info-poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .info {
+    max-width: 600px;
+  }
+  .info h1{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .info-details {
+    font-size: 16px;
+    display: flex;
+    font-weight: 700;
+    margin-top: 15px;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  .info-description {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+  }
+  
+  .info-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+  }
+  
+  .watch-btn, .fav-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .watch-btn {
+    border: none;
+    width: 263px;
+    height: 50px;
+    border-radius: 36px;
+    background-color: #EF4234;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .fav-btn {
+    border: none;
+    width: 171px;
+    height: 50px;
+    border-radius: 36px;
+    background-color: #EF4234;
+    cursor: pointer;
+  }
+  
