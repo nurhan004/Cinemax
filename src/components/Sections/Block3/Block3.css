@@ -1,0 +1,28 @@
+.block3-container{
+    height: 400px;
+    margin-top: 150px;
+  }
+   .Slide{
+    text-align: center;
+    background-color: #1A1A1A;
+    font-size: 18px;
+    height: 270px;
+    border-radius: 10px;
+}
+   .Slide h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    font-family: cursive;
+    margin-top: 100px;
+ }
+ .Slide p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #EF4234;
+    font-family: cursive;
+
+
+ }
+   
+  
