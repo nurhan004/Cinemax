@@ -1,9 +1,8 @@
 .swiper-slide-bg {
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 750px;
     display: flex;
-    
     align-items: center;
   }
   
@@ -22,23 +21,39 @@
   }
   
   .text-container p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    width: 400px;
+    font-size: 14px;
+    font-weight: 100;
+    width: 500px;
     margin: 1.25rem 0;
     font-family: cursive;
   }
   
   .text-container button {
-    border: 1px solid;
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-    background-color: #60a5fa;
+    border: none;
+    width: 151px;
+    height: 50px;
+    border-radius: 36px;
+    background-color: #EF4234;
     cursor: pointer;
+
   }
   
   .text-container button:hover {
-    background-color: #3b82f6;
+    background-color: #f52d05;
+  }
+  .look{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .see{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+
   }
   
   
