@@ -14,7 +14,7 @@ function Block3() {
           slidesPerView={3}
           spaceBetween={30}
           modules={[Pagination]}
-          className="mySwiper"
+          className=""
         >
           <SwiperSlide className="Slide">
             {/* <Link to="/drama"> */}
