@@ -1,0 +1,119 @@
+   
+   .containerer {
+    width: 1126px;
+    height: 536px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }  
+  
+  h2 {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    background-color: #212121;
+    width: 350px;
+    height: 25px;
+    color: white;
+   border-radius: 10px;
+  }
+  .button-div{
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  .textiop{
+    width: 458px;
+    align-items: center;
+  }
+  .kop{
+    width: 350px;
+  }
+  .jit{
+    width: 300px;
+  }
+  .lityr{
+    width: 458px;
+  }
+  .lityr p{
+    color: white;
+  }
+  
+  button {
+    width: 217px;
+    padding: 10px;
+    background: #EF4234;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .hit{
+    width: 95px;
+    background-color: #EF4234;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .toggle-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .toggle-text span {
+    cursor: pointer;
+  }
+  /*  */
+  .contaimnbv{
+    width: 1440px;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .gitopp{
+    margin-left: 600px;
+    margin-top: 300px;
+
+  }
+  .profile p{
+    width: 440px;
+    color: white;
+  }
+  .gier{
+    color: white;
+  }
+  .grtd{
+    width: 1000px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .divbuth{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+  }
+  .edit-photo-btn{
+      width: 170px;
+      height: 40px;
+  }
+  

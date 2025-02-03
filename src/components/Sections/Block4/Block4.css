@@ -1,31 +1,179 @@
-.filter-button-div {
-  display: flex;
-  width: 800px;
-  justify-content: space-between;
-  margin: auto;
-  background-color: #1A1A1A;
-  height: 65px;
-  position: relative;
-  margin-top: 20px;
+.block4 {
+  width: 1440px;
+  margin: 0 auto;
+
 }
 
-.filter-button-div button {
-  border: none;
+.tabs {
+  margin-top: 100px;
+  background: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-family: cursive;
+  margin-bottom: 50px;
+}
+
+.tab-item {
   color: white;
-  background-color: #1A1A1A;
-  height: 65px;
-  font-size: 16px;
+  padding: 10px 20px;
   cursor: pointer;
+}
+
+.tab-item.active {
+  border-bottom: 2px solid red;
+}
+
+.carousel-container {
+   
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+}
+
+
+
+.carousel-track {
+  display: flex;
+}
+
+.carousel-slide {
+  flex: 0 0 calc(100% / 4);
+  padding: 10px;
+}
+
+.movie-card {
+ margin-top: 50px;
+  width: 225px;
+  height: 300px;
+  position: relative;
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+ 
+}
+
+.movie-card img {
+  width: 225px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+  
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+}
+/*  */
+.block4 {
+  width: 1440px;
+  overflow: hidden;
   position: relative;
 }
 
-.filter-button-div button.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #EF4234;
-  transition: 0.3s;
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
+
+.tab-item {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tab-item.active {
+  border-bottom: 2px solid #e50914;
+}
+
+
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 calc(100% / 4); 
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.movie-card {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-card h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  font-size: 14px;
+  color: white;
+}
+
+
+.carousel-btn.left {
+  left: 10px;
+  width: 35px;
+  height: 35px; 
+  border-radius: 50%;
+  background-color: #e50914;
+  margin-top: 100px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+  width: 35px;
+  height: 35px; 
+  border-radius: 50%;
+  background-color: #e50914;
+  margin-top: 100px;
+
+}
+

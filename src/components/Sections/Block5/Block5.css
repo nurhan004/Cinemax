@@ -4,8 +4,9 @@
     background-color: #1A1A1A;
     border-radius: 20px;
     margin-bottom: 200px;
-    overflow: hidden; /* Скрываем всё, что выходит за пределы контейнера */
+    overflow: hidden; 
     position: relative;
+    margin-top: 250px;
 }
 
 .vilm {
