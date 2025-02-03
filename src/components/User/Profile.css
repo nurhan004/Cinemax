@@ -1,0 +1,61 @@
+.profile-container {
+    min-height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .edit-button {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-button:hover {
+    background: darkred;
+  }
+  
+  .profile-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-input {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .file-upload input {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,9 +1,9 @@
-import React from 'react';
+import 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.svg';
 import User from '../../assets/user.svg';
-
+import { FiLogIn } from "react-icons/fi";
 function Header() {
   return (
     <div className="header-container">
@@ -16,9 +16,13 @@ function Header() {
         </div>
 
         <div className="user-container">
-          <p className="language">EN</p>
+          <Link to="/appa">
+        <FiLogIn className='gtuhj'/>
+          </Link>
           <p className="user-icon">
-            <img src={User} alt="User" />
+            <Link to="/profile">
+            <img src={User} alt="User" className='ji' />
+            </Link>
           </p>
         </div>
       </div>
