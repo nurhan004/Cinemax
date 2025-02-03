@@ -1,20 +1,44 @@
 .block3-container{
-    height: 400px;
+    height: 500px;
     margin-top: 150px;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
   }
+  .block3-text{
+   margin-left: 150px;
+  }
+  .block3-text h1{
+   color: white;
+   font-size: 24px;
+   font-weight: 600;
+   font-family: cursive;
+  }
+  .block3-text p{
+   color: #979797;
+   font-weight: 400;
+   width: 378px;
+   font-size: 16px;
+   font-family: cursive;
+
+  }
+
    .Slide{
     text-align: center;
     background-color: #1A1A1A;
     font-size: 18px;
-    height: 270px;
+    height: 170px;
+    max-width: 300px;
     border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 70px;
 }
    .Slide h1{
     font-size: 22px;
     font-weight: 500;
     color: white;
     font-family: cursive;
-    margin-top: 100px;
+    margin-top: 50px;
  }
  .Slide p{
     font-size: 16px;

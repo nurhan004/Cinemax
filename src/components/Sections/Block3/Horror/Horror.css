@@ -1,4 +1,4 @@
-.block3Container{
+.HorrorCon{
     width: 1200px;
     margin: 0 auto;
     justify-content: center;
@@ -7,13 +7,13 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-.cardDrama {
+.cardHorror {
     width: 200px;
     height: 380px;
     border-radius: 20px;
     position: relative;
     padding: 1.8rem;
-    /* border: 2px solid #c3c6ce; */
+    margin-top: 30px;
     transition: 0.5s ease-out;
     overflow: visible;
     p{
@@ -34,7 +34,7 @@
 
     }
    }
-      .cardDrama-details {
+      .cardHorror-details {
     color: rgb(253, 253, 253);
     height: 100%;
     gap: .5em;
@@ -42,31 +42,27 @@
     text-align: center;
     place-content: center;
    }   
-   .cardDrama-button {
+   .cardHorror-button {
     transform: translate(-50%, 125%);
     width: 60%;
-    border-radius: 1rem;
+    border-radius: 20px;
     border: none;
-    background-color: #008bf8;
+    margin-top: 20px;
+    background-color: #f83a00;
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
     position: absolute;
     left: 50%;
-    bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
    }
-   
- 
-   
-   /*Hover*/
-   .cardDrama:hover {
-    border-color: #008bf8;
+   .cardHorror:hover {
+    border-color: #f81100;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
    
-   .cardDrama:hover .cardDrama-button {
+   .cardHorror:hover .cardHorror-button {
     transform: translate(-50%, 50%);
     opacity: 1;
    }
