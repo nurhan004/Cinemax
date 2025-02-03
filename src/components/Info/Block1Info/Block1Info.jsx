@@ -43,7 +43,7 @@ function Block1Info() {
             <div className="info">
               <h1>{info.title}</h1>
               <div className="info-details">
-                <p>{info.release_date?.split("-")[0]}</p>
+                <p>{info.release_date?.split("-")[0] }</p>
                 <p>{info.runtime ? `${info.runtime} мин` : "Нет данных"}</p>
                 <p>{info.adult ? "18+" : "12+"}</p>
                 <p>{info.production_countries?.[0]?.iso_3166_1 || "N/A"}</p>

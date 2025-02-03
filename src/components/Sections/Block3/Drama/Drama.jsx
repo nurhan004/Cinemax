@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Drama.css"
 import { drama } from './Drama'
+import { Link } from 'react-router-dom';
 
 function Drama() {
   return (
@@ -13,7 +14,11 @@ function Drama() {
                     <img class="text-body" src={drama.img} />
                     <h2 class="text-title">{drama.title}</h2>
                     <p class="text-title" >{drama.janr}</p></div>
-                    <button class="cardDrama-button">More info</button>
+                    <button class="cardDrama-button">
+                      <Link to={`/dramaFilm/${drama.id}`}>
+                      More info
+                      </Link>
+                      </button>
 
 
                 </div>
