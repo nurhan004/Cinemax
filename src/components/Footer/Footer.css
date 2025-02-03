@@ -1,34 +1,38 @@
 .Footer-Container{
-    width: 1400px;
+    width: 1495px;
+    height: 288px;
     background-color: #1A1A1A;
     margin: auto;
+    margin-top: 50px;
 }
 .block-footer{
     width: 1000px;
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
+    font-family: cursive;
+    padding-top: 25px;
+
     
 }
 .ji{
-font-family: Montserrat;
-font-size: 18px;
+font-size: 20px;
 font-weight: 500;
 line-height: 21.94px;
 text-align: left;
 color: white;
 font-size: 20px;
-transition: color 0.3s ease, ease;
+
 }
-.ji:hover{
-    color: #EF4234; 
-}
+
 .Footer-Container p{
-    font-family: Montserrat;
     color: #FFFFFF;   
-    font-size: 20px;
+    font-size: 16px;
     color: white; 
+    font-weight: 400;
     transition: color 0.3s ease,  ease; 
+    font-family: cursive;
+
 }
 .Footer-Container p:hover{
     color: #EF4234;

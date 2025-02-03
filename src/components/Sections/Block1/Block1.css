@@ -1,3 +1,10 @@
+.swiper-container{
+  width: 1440px;
+  margin: 0 auto;
+}
+.nurhan{
+  margin-left: 70px;
+}
 .swiper-slide-bg {
     background-size: cover;
     background-position: center;
@@ -10,7 +17,7 @@
   .text-container {
     width: 600px;
     color: white;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   
   .text-container h1 {
@@ -35,6 +42,7 @@
     border-radius: 36px;
     background-color: #EF4234;
     cursor: pointer;
+    margin-left: 70px;
 
   }
   

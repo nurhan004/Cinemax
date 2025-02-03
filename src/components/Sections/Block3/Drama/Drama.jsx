@@ -4,11 +4,17 @@ import { drama } from './Drama'
 
 function Drama() {
   return (
-    <div>
-        {
+    <div className='block3Container'>
+
+      {
             drama.map((drama)=>(
-                <div key={drama.id}>
-                    <img src={drama.img} alt="" />
+                <div className='cardDrama' key={drama.id}>
+                    <div class="cardDrama-details">
+                    <img class="text-body" src={drama.img} />
+                    <h2 class="text-title">{drama.title}</h2>
+                    <p class="text-title" >{drama.janr}</p></div>
+                    <button class="cardDrama-button">More info</button>
+
 
                 </div>
             ))
@@ -18,4 +24,4 @@ function Drama() {
   )
 }
 
-export default Drama
+export default Drama;

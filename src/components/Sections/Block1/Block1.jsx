@@ -63,8 +63,11 @@ function Block1() {
                   animate={activeIndex === index ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                   transition={{ duration: 1, delay: 0.5 }}
                 >
+                  <div className="nurhan">
                   <motion.h1>{movie.title}</motion.h1>
                   <motion.p>{movie.overview || "Описание фильма отсутствует."}</motion.p>
+
+                  </div>
                   <motion.div transition={{ duration: 1, delay: 1.1 }}>
                     <Link to={`/look/${movie.id}`}>
                       <button className="look">
