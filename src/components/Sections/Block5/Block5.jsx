@@ -10,7 +10,7 @@ const apiKey = import.meta.env.VITE_API_KEY || "18e278777fe86a077b3fe657f9b52f77
 
 const Block5 = () => {
   const [movieData, setMovieData] = useState(null);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
 
   useEffect(() => {
     const fetchRandomMovie = async () => {
