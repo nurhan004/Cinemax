@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./Block1Info.css";
 import look from "../../../assets/look.svg";
+import save from "../../../assets/save.svg";
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
@@ -53,30 +54,15 @@ function Block1Info() {
                 <button className="watch-btn">
                   Смотреть по подписке <img src={look} alt="Смотреть" />
                 </button>
+                <button className="watch-btn">
+                избранное <img src={save} alt="Смотреть" />
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* <section>
-        <div>
-          {treiler &&
-            treiler.map((treiler) => (
-              <div key={treiler.id}>
-                <iframe
-                  width="560"
-                  height="315"
-                  src={`https://www.youtube.com/embed/${treiler.video.split('/').pop()}`}
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            ))}
-        </div>
-      </section> */}
     </div>
   );
 }

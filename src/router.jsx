@@ -9,6 +9,7 @@ import Appa from "./components/User/Appa"
 import Profile from "./components/User/Profile"
 import DramaInfo from "./components/Sections/Block3/Drama/DramaInfo/DramaInfo.jsx";
 import HorrorInfo from "./components/Sections/Block3/Horror/HorrorInfo/HorrorInfo.jsx";
+import KomediyaInfo from "./components/Sections/Block3/Komediya/KomediyaInfo/KomediyaInfo.jsx";
 // import Drama from "./components/Sections/Block3/Drama/Drama"
 
 
@@ -47,6 +48,10 @@ export const myRouter = createBrowserRouter([
             {
                 path:"/horrorFilm/:id",
                 element:<HorrorInfo/>
+            },
+            {
+                path:"/komediyaFilm/:id",
+                element:<KomediyaInfo/>
             },
 
 

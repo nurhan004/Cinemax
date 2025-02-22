@@ -16,6 +16,7 @@
     margin-left: 20px;
     border-radius: 10px;
 
+
 }
 .tile{
     font-family: cursive;
@@ -28,7 +29,12 @@
 }
 .movie-content{
     display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+.movie-content img{
+right: 200px;
 }
 .text{
     width: 442px;
@@ -40,7 +46,7 @@
 .movie-info{
     margin-top: 100px;
 }
-.hit{
+.hit3{
 width: 120px;
 height:  40px;
 border-radius: 36px;

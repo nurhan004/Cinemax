@@ -36,13 +36,13 @@ function Appa() {
   return (
     <div className="containerer">
         <div className="profile">
-            <h2>Регистрация</h2>
+            <h2 className="reg">Регистрация</h2>
             <div className="textiop">
             <p>Зарегистрируйтесь, чтобы
             получить доступ ко всем преимуществам нашей платформы. Уже есть аккаунт?</p>
             </div>
             <p className="toggle-text">
-          <span onClick={() => setIsLogin(!isLogin)} className="hit">
+          <span onClick={() => setIsLogin(!isLogin)} className="hit1">
             {isLogin ? " Зарегистрироваться" : " Войти"}
           </span>
         </p>
@@ -50,7 +50,7 @@ function Appa() {
         <div className="jit">
 
       <form onSubmit={handleSubmit} className="form">
-        <h2>{isLogin ? "Вход" : "Создать аккаунт"}</h2>
+        <h2 >{isLogin ? "Вход" : "Создать аккаунт"}</h2>
         <div className="kop">
         {error && <p className="error">{error}</p>}
         {!isLogin && (
@@ -77,7 +77,7 @@ function Appa() {
           required
           />
           </div>
-        <button type="submit">{isLogin ? "Войти" : "Зарегистрироваться"}</button>
+        <button className="kush" type="submit">{isLogin ? "Войти" : "Зарегистрироваться"}</button>
       </form>
       <div>
         </div>

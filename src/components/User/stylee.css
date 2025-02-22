@@ -11,6 +11,7 @@
     align-items: center;
     margin-top: 80px;
     margin-bottom: 50px;
+    gap: 100px;
   }  
   
   h2 {
@@ -36,12 +37,22 @@
   .textiop{
     width: 458px;
     align-items: center;
+    text-align: center;
+    font-family: cursive;
   }
   .kop{
     width: 350px;
   }
+  .reg{
+    font-family: cursive;
+  }
   .jit{
     width: 300px;
+  }
+  .jit h2{
+    font-family: cursive;
+    margin-left: 60px;
+  
   }
   .lityr{
     width: 458px;
@@ -50,7 +61,7 @@
     color: white;
   }
   
-  button {
+  .kush{
     width: 217px;
     padding: 10px;
     background: #EF4234;
@@ -58,13 +69,23 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+  
   }
-  .hit{
-    width: 95px;
-    background-color: #EF4234;
-    border-radius: 10px;
+  .hit1{
+    width: 317px;
+    padding: 10px;
     color: white;
-    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+    top: 10px;
   }
   
 
@@ -88,15 +109,21 @@
     margin: auto;
     margin-top: 80px;
   }
+
   .gitopp{
     margin-left: 600px;
     margin-top: 300px;
 
   }
   .profile p{
-    width: 440px;
     color: white;
+    text-align: center;
+    margin-left: 40px;
   }
+  .profile h2{
+    margin-left: 40px;
+  }
+
   .gier{
     color: white;
   }

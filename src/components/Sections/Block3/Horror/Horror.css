@@ -66,3 +66,12 @@
     transform: translate(-50%, 50%);
     opacity: 1;
    }
+   .flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* position: relative;
+    right: 12px; */
+    width: 730px;
+    font-family: 'Courier New', Courier, monospace;
+   }
