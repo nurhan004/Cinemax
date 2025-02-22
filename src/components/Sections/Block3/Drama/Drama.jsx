@@ -15,8 +15,8 @@ function Drama() {
                     <h2 class="text-title">{drama.title}</h2>
                     <p class="text-title" >{drama.janr}</p></div>
                     <button class="cardDrama-button">
-                      <Link to={`/dramaFilm/${drama.id}`}>
-                      More info
+                      <Link className='watch'  to={`/dramaFilm/${drama.id}`}>
+                      Смотреть
                       </Link>
                       </button>
 

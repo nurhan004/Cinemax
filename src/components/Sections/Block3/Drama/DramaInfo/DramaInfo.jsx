@@ -2,6 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { drama } from "../Drama";
 import "./DramaInfo.css";
+import look from "../../../../../assets/look.svg";
+import save from "../../../../../assets/save.svg";
+
 
 function DramaInfo() {
   const { id } = useParams();
@@ -27,12 +30,22 @@ function DramaInfo() {
 
         <div className="info">
           <h1>{selectedDrama.title}</h1>
-          <p className="info-genre">{selectedDrama.janr}</p>
+          <div className='flex'>
+            <p>{selectedDrama.releaseDate}</p>
+          <p className="info-genre">жанр:{selectedDrama.janr}</p>
+          <p>время:{selectedDrama.duration}</p>
+          <p> Рейтинг:{selectedDrama.rating}</p>
+
+          </div>
           <p className="info-description">{selectedDrama.title2}
           </p>
-          <div className="info-buttons">
-            <button className="watch-btn">Смотреть</button>
-          </div>
+                     <div className="info-buttons">
+                             <button className="watch-btn">
+                                    Смотреть по подписке <img src={look} alt="Смотреть" />
+                                  </button>
+                                  <button className="watch-btn">
+                                  избранное <img src={save} alt="Смотреть" />
+                                  </button>        </div>
         </div>
       </div>
     </div>

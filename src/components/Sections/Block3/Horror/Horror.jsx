@@ -14,8 +14,8 @@ function Horror() {
                             <h2 class="text-title">{horror.title}</h2>
                             <p class="text-title" >{horror.janr}</p></div>
                             <button class="cardHorror-button">
-                              <Link to={`/horrorFilm/${horror.id}`}>
-                              More info
+                              <Link  className='watch' to={`/horrorFilm/${horror.id}`}>
+                              Смотреть 
                               
                               </Link>
                               </button>

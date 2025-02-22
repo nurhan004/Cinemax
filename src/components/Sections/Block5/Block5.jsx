@@ -79,7 +79,7 @@ const Block5 = () => {
                 <div>
                   <Link to={`/look/${movie.id}`}>
                   
-                  <button className='hit'>Смотреть</button>
+                  <button className='hit3'>Смотреть</button>
                   </Link>
                 </div>
                 </div>

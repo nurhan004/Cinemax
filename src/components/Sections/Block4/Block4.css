@@ -6,11 +6,13 @@
 
 .tabs {
   margin-top: 100px;
-  background: black;
+  background: #1A1A1A;
   padding: 10px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
+  border-radius: 10px;
   font-family: cursive;
+  font-size: 16px;
   margin-bottom: 50px;
 }
 
@@ -21,7 +23,7 @@
 }
 
 .tab-item.active {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #EF4234;
 }
 
 .carousel-container {
@@ -29,6 +31,21 @@
   overflow: hidden;
   width: 100%;
   margin: 20px 0;
+}
+.carousel-btn-left{
+position: relative;
+background-color: #EF4234;
+border: none;
+width: 35px;
+height: 35px;
+border-radius: 50px;
+top: 240px;
+color: white;
+font-size: 18px;
+padding-top: 5px;
+z-index: 10;
+
+
 }
 
 
@@ -43,35 +60,29 @@
 }
 
 .movie-card {
- margin-top: 50px;
+  margin-top: 50px;
   width: 225px;
-  height: 300px;
+  height: 472px;
   position: relative;
-  background: #222;
-  padding: 10px;
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
   color: white;
- 
 }
-
-.movie-card img {
-  width: 225px;
-  height: 300px;
-  border-radius: 10px;
-}
-
 .rating {
   position: absolute;
-  top: 10px;
-
-  left: 10px;
-  background: red;
+  left: 19px;
+  background: #EF4234;
   color: white;
-  padding: 5px;
+  width: 35px;
+  height: 35px;
+  font-size: 13px;
+  font-weight: 600;
   border-radius: 5px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .carousel-btn {
   position: absolute;
@@ -80,8 +91,9 @@
   background: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
-  padding: 10px 15px;
   cursor: pointer;
+  padding-top: 6px;
+  padding-left: 8px;
   font-size: 18px;
   z-index: 10;
   
@@ -94,7 +106,6 @@
 .carousel-btn.right {
   right: 10px;
 }
-/*  */
 .block4 {
   width: 1440px;
   overflow: hidden;
@@ -103,8 +114,9 @@
 
 .tabs {
   display: flex;
-  justify-content: space-around;
   margin-bottom: 20px;
+  gap: 75px;
+  justify-content: center;
 }
 
 .tab-item {
@@ -133,10 +145,11 @@
 }
 
 .movie-card {
-  background: #222;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+  font-weight: 600;
+  font-family: cursive;
   color: #fff;
   margin-left: 50px;
 }
@@ -148,12 +161,14 @@
 }
 
 .movie-card h2 {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   margin: 10px 0;
 }
 
 .movie-card p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
 }
 
@@ -168,12 +183,17 @@
 }
 
 .carousel-btn.right {
-  right: 10px;
-  width: 35px;
-  height: 35px; 
-  border-radius: 50%;
-  background-color: #e50914;
-  margin-top: 100px;
+  margin-top: 200px;
+background-color: #EF4234;
+border: none;
+width: 35px;
+height: 35px;
+border-radius: 50px;
+top: 240px;
+color: white;
+font-size: 18px;
+z-index: 10;
+
 
 }
 

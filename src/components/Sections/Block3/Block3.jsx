@@ -23,7 +23,7 @@ function Block3() {
           <div className='slides'>
           <SwiperSlide className="Slide">
             <Link to="/drama">
-              <h1>Драма</h1>
+              <h1 className='block3Linl'>Драма</h1>
               <p>120k+ фильмов</p>
             </Link>
           </SwiperSlide>
@@ -45,8 +45,6 @@ function Block3() {
             <h1>Мультфильм</h1>
             <p>90k+ фильмов</p>
           </SwiperSlide>
-          <SwiperSlide className="Slide">Slide 5</SwiperSlide>
-          <SwiperSlide className="Slide">Slide 6</SwiperSlide>
 
           </div>
         </Swiper>
